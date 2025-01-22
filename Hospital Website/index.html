@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/017/177/954/small/round-medical-cross-symbol-on-transparent-background-free-png.png" alt="Golden City Hospital Logo" class="logo">
+            
+            <h1>Golden City Hospital</h1>
+            
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#appointment">Book Appointment</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="info">
+            <h1>Welcome to Our Hospital</h1>
+            <p>Our hospital provides the best healthcare services to ensure the well-being of our patients. We are committed to delivering high-quality medical care with advanced technology and compassionate staff.</p>
+        </section>
+
+        <section id="services">
+            <h2>Available Services</h2>
+            <ul>
+                <li>General Medicine</li>
+                <li>Pediatrics</li>
+                <li>Orthopedics</li>
+                <li>Cardiology</li>
+                <li>Diagnostic Services</li>
+                <li>Emergency Care</li>
+            </ul>
+        </section>
+
+        <section id="appointment">
+            <h2>Book an Appointment</h2>
+            <form id="appointment-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="date">Appointment Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="service">Service Required:</label>
+                <select id="service" name="service" required>
+                    <option value="general-medicine">General Medicine</option>
+                    <option value="pediatrics">Pediatrics</option>
+                    <option value="orthopedics">Orthopedics</option>
+                    <option value="cardiology">Cardiology</option>
+                    <option value="diagnostic-services">Diagnostic Services</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <span class="label">Phone:</span> <span class="phone">8975103333</span>
+            <br>
+            <span class="label">Address:</span> <span class="address">Gut 66, Paithan Road, Kanchanwadi, Aurangabad-Maharashtra - 431136</span>
+        </p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
