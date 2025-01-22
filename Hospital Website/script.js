@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`Phone: ${phone}`);
         console.log(`Date: ${date}`);
         console.log(`Service: ${service}`);
+    
 
     
         alert('Your appointment has been booked successfully!');
